@@ -446,6 +446,7 @@
 "Assets/Fps/Scripts/Scriptable_Objects/PerlinNoiseData.cs"
 "Assets/Fps/Scripts/Scriptable_Objects/PickableData.cs"
 "Assets/Fps/Scripts/Scriptable_Objects/PickableInputData.cs"
+"Assets/HQ_ResidentialHouse/Bonus content_Modular Interiors/ModuleGizmos.cs"
 "Assets/Scripts/ActivationWithTime.cs"
 "Assets/Scripts/AnimationHandler.cs"
 "Assets/Scripts/Bouttons.cs"
