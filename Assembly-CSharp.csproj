@@ -70,6 +70,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\ConditionOperator.cs" />
     <Compile Include="Assets\Scripts\SceneLoaderWithTime.cs" />
     <Compile Include="Assets\Scripts\quitGame.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\FixFps.cs" />
     <Compile Include="Assets\Fps\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Scripts\MonsterScript.cs" />
@@ -94,8 +95,11 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
     <Compile Include="Assets\Scripts\MouvementAnimation.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\LightAnimationSimple.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\MaterialSetup.cs" />
     <Compile Include="Assets\Fps\Scripts\Camera_Controller\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\ScreamerDetect.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\KeyScript.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\GroupAttributes\GroupAttribute.cs" />
     <Compile Include="Assets\Fps\Scripts\Interaction_System\InteractionUIPanel.cs" />
     <Compile Include="Assets\Scripts\CameraShakeScript.cs" />
@@ -106,6 +110,7 @@
     <Compile Include="Assets\Scripts\CursorImage.cs" />
     <Compile Include="Assets\Scripts\Interaction\Interactable\Levier.cs" />
     <Compile Include="Assets\Fps\Scripts\Scriptable_Objects\PerlinNoiseData.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\MCS_Manager\NL_MCS_Manager.cs" />
     <Compile Include="Assets\Scripts\Interaction\Interactable\Chair.cs" />
     <Compile Include="Assets\Scripts\ActivationWithTime.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
@@ -134,6 +139,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\SliderAttribute.cs" />
     <Compile Include="Assets\NOT_Lonely\Object Placement Tool\Nl_DragObject.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\GroupAttributes\BoxGroupAttribute.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\NL_MCS.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\ValidatorAttributes\MaxValueAttribute.cs" />
     <Compile Include="Assets\NOT_Lonely\Object Placement Tool\NL_PhysicsPlacer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
@@ -151,9 +157,11 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\TagAttribute.cs" />
     <Compile Include="Assets\Scripts\Interaction\Interactable\Closets.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\NL_MCS_IgnoreShadowCastingSwitch.cs" />
     <Compile Include="Assets\Fps\Scripts\Scriptable_Objects\PickableInputData.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawConditionAttributes\ShowIfAttribute.cs" />
     <Compile Include="Assets\Fps\Scripts\Scriptable_Objects\HeadBobData.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\LightAnimationAdvanced.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\DropdownAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\DisableIfAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
@@ -168,6 +176,7 @@
     <Compile Include="Assets\Fps\Scripts\Camera_Controller\CameraBreathing.cs" />
     <Compile Include="Assets\Fps\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\Bouttons.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\NL_MCS_Interior.cs" />
     <Compile Include="Assets\Fps\Scripts\Interaction_System\InteractionData.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\DrawerAttribute.cs" />
     <Compile Include="Assets\Scripts\InteracteSysteme.cs" />
@@ -175,12 +184,20 @@
   <ItemGroup>
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\NOT_Lonely_Cobweb.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Fps\Plugins\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\TranslucentAnim_NL.shader" />
     <None Include="Assets\NOT_Lonely\Object Placement Tool\Readme.txt" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\NL_Refraction.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\MaskBlend3Colors_NL.shader" />
     <None Include="Assets\HQ_ResidentialHouse\Shaders\MaskedPBR.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\NOT_Lonely_RotateUVs.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Readme.txt" />
     <None Include="Assets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Upgrade to HDRP or URP.txt" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\NL_Water.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -189,6 +206,7 @@
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\MaskBlend_NL.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Fonts\License.txt" />
@@ -196,6 +214,8 @@
     <None Include="Assets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\MaskBlendSimple_NL.shader" />
+    <None Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Shaders\NOTLonely_fire.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />

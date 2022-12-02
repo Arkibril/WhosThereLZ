@@ -57,11 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\PropertyMetaDatabase.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\Editor\MaterialSetupEditor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\FieldDrawers\FieldDrawer.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\Editor\NL_MCS_Interior_editor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\SliderPropertyDrawer.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\PropertyDrawer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\NativePropertyDrawers\ShowNativePropertyNativePropertyDrawer.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\MCS_Manager\Editor\NL_MCS_Manager_editor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\NativePropertyDrawerDatabase.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyValidators\ValidateInputPropertyValidator.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyValidators\RequiredPropertyValidator.cs" />
@@ -90,6 +93,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Attributes\MethodDrawerAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\MethodDrawers\MethodDrawer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\ResizableTextAreaPropertyDrawer.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\Editor\MtlEditor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\FieldDrawerDatabase.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\CodeGenerator.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawConditions\HideIfPropertyDrawCondition.cs" />
@@ -107,6 +111,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\MinMaxSliderPropertyDrawer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawConditions\ShowIfPropertyDrawCondition.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyGroupers\BoxGroupPropertyGrouper.cs" />
+    <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\Modular Construction System\Editor\NL_MCS_editor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\DropdownPropertyDrawer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyValidators\PropertyValidator.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyMetas\PropertyMeta.cs" />
