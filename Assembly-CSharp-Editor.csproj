@@ -78,6 +78,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Attributes\NativePropertyDrawerAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Attributes\PropertyDrawConditionAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Attributes\BaseAttribute.cs" />
+    <Compile Include="Assets\NOT_Lonely\SRP_Shaders_upgrader\Editor\NL_ShadersChange_Editor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Editors\InspectorEditor.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\PropertyValidatorDatabase.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\TagPropertyDrawer.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyMetas\InfoBoxPropertyMeta.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyMetas\OnValueChangedPropertyMeta.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\MethodDrawerDatabase.cs" />
+    <Compile Include="Assets\NOT_Lonely\Object Placement Tool\Editor\NL_ObjectPlacementTool_window.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\Attributes\MethodDrawerAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\MethodDrawers\MethodDrawer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Editor\PropertyDrawers\ResizableTextAreaPropertyDrawer.cs" />

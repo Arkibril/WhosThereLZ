@@ -132,8 +132,10 @@
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\EnableIfAttribute.cs" />
     <Compile Include="Assets\Scripts\DesactivateObject.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\SliderAttribute.cs" />
+    <Compile Include="Assets\NOT_Lonely\Object Placement Tool\Nl_DragObject.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\GroupAttributes\BoxGroupAttribute.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\ValidatorAttributes\MaxValueAttribute.cs" />
+    <Compile Include="Assets\NOT_Lonely\Object Placement Tool\NL_PhysicsPlacer.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
     <Compile Include="Assets\Fps\Scripts\First_Person_Controller\HeadBob.cs" />
     <Compile Include="Assets\Scripts\CursorMode.cs" />
@@ -175,6 +177,7 @@
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Fps\Plugins\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\NOT_Lonely\Object Placement Tool\Readme.txt" />
     <None Include="Assets\HQ_ResidentialHouse\Shaders\MaskedPBR.shader" />
     <None Include="Assets\Fps\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
