@@ -1,23 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.EditorTools;
 using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    [Header("State")]
     public bool isLocked;
     public bool isOpen;
-
+    public bool isIn;
     public GameObject chairOnDoor = null;
 
-    public AudioClip[] doorSounds;
-    public AudioSource audioSource;
+    [Header("Controls")]
+    public float openingSpeed;
+    public float closingSpeed;
+    [Range(0, 1)]
+    public float closeStartAt;
+    [Range(0, 1)]
+    public float openStartAt;
+
+    [Header("Animations")]
+    public string openingAnim;
+    public Animation anim;
+
+    [Header("Sounds")]
+    public AudioClip Open;
+    public AudioClip Close;
+    public AudioClip Locked;
 
     private void Update()
     {
-        audioSource = GetComponent<AudioSource>();
-
+        anim = GetComponent<Animation>();
         CheckIfLocked();
+        Init();
     }
 
     void CheckIfLocked()
@@ -37,29 +49,27 @@ public class Door : MonoBehaviour
         }
     }
 
-    void Sounds()
+    private void Init()
     {
-        if (isOpen && !isLocked) Open();
-        else Close();
+        if (gameObject.name == "DoorRoom")
+        {
+            openingSpeed = 1;
+            closingSpeed = -1.3f;
+            closeStartAt = 0.539f;
+            openStartAt = 0f;
+
+            openingAnim = "Door_open";
+        }
     }
 
-    void Open()
+    private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.CompareTag("MainDoor") || gameObject.CompareTag("RoomDoor"))
-        {
-            audioSource.clip = doorSounds[2];
-            audioSource.Play();
-        }
-
+        if (other.name == "Mark") isIn = true;
     }
 
-    void Close()
+    private void OnTriggerExit(Collider other)
     {
-        if (gameObject.CompareTag("MainDoor") || gameObject.CompareTag("RoomDoor"))
-        {
-            audioSource.clip = doorSounds[1];
-            audioSource.Play();
-        }
+        if (other.name == "Mark") isIn = false;
     }
 }
 
