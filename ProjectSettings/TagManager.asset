@@ -9,6 +9,7 @@ TagManager:
   - Chair
   - PlayerHeadTag
   - Door
+  - Window
   layers:
   - Default
   - TransparentFX

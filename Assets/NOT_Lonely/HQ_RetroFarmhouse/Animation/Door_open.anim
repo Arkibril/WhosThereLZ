@@ -2981,8 +2981,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.016666668
-    functionName: CloseSound
+  - time: 0.083333336
+    functionName: Sounds
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

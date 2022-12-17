@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/A trier/New map.unity
+- path: Assets/Scenes/Scene test/Interaction Systeme test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

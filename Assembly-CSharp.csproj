@@ -68,6 +68,7 @@
     <Compile Include="Assets\Fps\Scripts\Interaction_System\IInteractable.cs" />
     <Compile Include="Assets\Scripts\PlayerInfo.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\ConditionOperator.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Interactable\LightManager.cs" />
     <Compile Include="Assets\Scripts\SceneLoaderWithTime.cs" />
     <Compile Include="Assets\Scripts\quitGame.cs" />
     <Compile Include="Assets\NOT_Lonely\HQ_RetroFarmhouse\Scripts\DoorScript.cs" />
@@ -178,6 +179,7 @@
     <Compile Include="Assets\Fps\Scripts\Interaction_System\InteractionData.cs" />
     <Compile Include="Assets\Fps\Plugins\NaughtyAttributes\Scripts\Core\DrawerAttributes\DrawerAttribute.cs" />
     <Compile Include="Assets\Scripts\InteracteSysteme.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Interactable\RecordPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainDemoScene_HDRP\Notes\Stamps.txt" />

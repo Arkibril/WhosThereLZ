@@ -24,12 +24,28 @@ public class Door : MonoBehaviour
     public AudioClip Open;
     public AudioClip Close;
     public AudioClip Locked;
+    public AudioSource audio;
 
     private void Update()
     {
         anim = GetComponent<Animation>();
+        audio = GetComponent<AudioSource>();
         CheckIfLocked();
         Init();
+    }
+
+    public void Sounds()
+    {
+        if (!isOpen) 
+        {
+            audio.clip = Close;
+            audio.Play();
+        }
+        else
+        {
+            audio.clip = Open;
+            audio.Play();
+        }
     }
 
     void CheckIfLocked()
@@ -59,6 +75,43 @@ public class Door : MonoBehaviour
             openStartAt = 0f;
 
             openingAnim = "Door_open";
+        }
+        if(gameObject.name == "Window")
+        {
+            openingSpeed = 1;
+            closingSpeed = -1;
+            closeStartAt = 1;
+            openStartAt = 0;
+
+            openingAnim = "Window_open";
+        }
+        if(gameObject.name == "DoorMain")
+        {
+            openingSpeed = 1;
+            closingSpeed = -1.3f;
+            closeStartAt = 0.539f;
+            openStartAt = 0f;
+            isLocked = true;
+
+            openingAnim = "Door_open";
+        }
+        if(gameObject.name == "Drawer")
+        {
+            openingSpeed = 1;
+            closingSpeed = -1;
+            closeStartAt = 1;
+            openStartAt = 0;
+
+            openingAnim = "Drawer";
+        }
+        if(gameObject.name == "Door_Bottom")
+        {
+            openingSpeed = 1;
+            closingSpeed = -1;
+            closeStartAt = 0.5f;
+            openStartAt = 0;
+
+            openingAnim = "KitchenDoor";
         }
     }
 

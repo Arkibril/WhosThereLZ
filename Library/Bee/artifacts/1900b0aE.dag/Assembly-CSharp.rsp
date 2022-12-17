@@ -486,6 +486,8 @@
 "Assets/Scripts/Interaction/Interactable/ChairIndication.cs"
 "Assets/Scripts/Interaction/Interactable/Door.cs"
 "Assets/Scripts/Interaction/Interactable/Levier.cs"
+"Assets/Scripts/Interaction/Interactable/LightManager.cs"
+"Assets/Scripts/Interaction/Interactable/RecordPlayer.cs"
 "Assets/Scripts/Interaction/Interactable/Torche.cs"
 "Assets/Scripts/Interaction/InteractionType.cs"
 "Assets/Scripts/Interaction/PlayerInteraction.cs"

@@ -22,8 +22,8 @@ public class Chair : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.J))
             {
                 isTake = false;
-                GetComponentInChildren<MeshCollider>().enabled = true;
-                GetComponentInChildren<MeshCollider>().isTrigger = false;
+                GetComponent<MeshCollider>().enabled = true;
+                GetComponent<MeshCollider>().isTrigger = false;
                 rb.useGravity = true;
                 rb.AddForce(transform.forward * 5, ForceMode.Impulse);
 

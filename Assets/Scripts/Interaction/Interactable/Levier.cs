@@ -8,6 +8,8 @@ public class Levier : MonoBehaviour
     public bool isOn;
 
     public Material mat;
+    public Material[] lightEnabled;
+    public Material[] lightDisabled;
 
     public Animator anim;
     [SerializeField]
